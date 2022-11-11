@@ -1,0 +1,198 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration: none;
+}
+/* header portion css starts */
+header{
+    height:70px;
+    /*border:5px solid blue;*/
+    background-color: #3b2632;
+}
+#brand{
+    color:#fff;
+    font-size:30px;
+    float:left;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+#social{
+    float:right;
+    margin-top: 7px;
+    margin-right: 1%;
+}
+.socialImg{
+    height:50px;
+}
+/* header portion css ends */
+
+/* Search Block (or) Container Block Css starts */
+
+
+#container{
+    /* height:700px; */
+    width: 80%;
+    margin-left:10%;
+    margin-top: 2%;
+    /* border: 1px solid red; */
+}
+
+     /* Filter div Css starts */
+
+.filter{
+    height:500px;
+    width:20%;
+    border: 2px solid #eff4f1;
+    float: left;
+    /* display: isnline-block; */
+}
+#filter_heading{
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+#abc{
+    border-radius: 0.3em;
+    background-color: rgb(3, 218, 3);
+    color: white;
+    padding: 2px 5px 4px;
+}
+
+.filter_content{
+    text-align: left;
+    margin: 2em 0px 7px 0px;
+
+}
+.fill_content{
+    border-radius: 0.3em;
+    background-color: rgb(240, 5, 5);
+    color: white;
+    padding: 2px 5px 4px;
+} 
+
+.content{
+    /* height:700px; */
+    width:75%; 
+    margin-left:4%;
+    /* border:2px solid rgb(38, 0, 128); */
+    /* float: left; */
+    display: inline-block;
+}
+
+.content_element{
+    height: 300px;
+    width: 30%;
+    /* background-color: aqua;
+    border-bottom: 1px solid red;
+    display: inline-block; */
+}
+
+
+.flex_content_element{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    
+
+}
+
+.marg-left{
+    margin-left: 5%;
+}
+
+.content_element img{
+    object-fit: cover; 
+    width: 100%;
+    height: 200px;
+    border-radius: 1em;
+    box-shadow: -0.4em 0.2em 0.7em #d18d6bcf;
+}
+
+.content_text{
+    /* background-color:red; */
+    height: 100px;;
+}
+.flex_content_text{
+    display: flex;
+    height: 2em;
+    /* background-color: #3b2632; */
+    align-items: center;
+    font-size: 16px;
+    font-family: cursive;
+    justify-content: space-between;
+}
+
+.fct_1{
+    display: flex;
+    align-items: center;
+}
+.fct_11{
+    display: flex;
+}
+.fct_11_1{
+    padding: 8px 0px 0px;
+}
+.fct_2{
+    font-size: 14px;
+    color: #e05555e6;
+}
+/* Search Block Css end */
+
+/* Footer Block css starts */
+
+footer{
+    /* height:140px; */
+    background-color: #3b2632;
+    color:#fff;
+    text-align: center;
+   
+}
+
+#footText{
+    font-size: 25px;
+    line-height: 1.5;
+}
+#footMain{
+    width: 100%;
+    display: inline-block;
+}
+.R-border{
+    border-right: 2px solid;
+    float: left;
+    height: 80px;
+}
+
+.footDiv{
+    width:33%;
+    float:left;
+    
+    
+    
+}
+.anim{
+    animation: blink 0.8s linear infinite;
+}
+
+@keyframes blink
+{
+    
+   50%{
+    opacity: 0;
+   }
+}
+
+.noBorder{
+    border:none
+}
+
+.socialIcon{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
